@@ -1,0 +1,87 @@
+button {
+  font-size: 16px;
+  max-width: 130px;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.cart-header > button {
+  font-size: 16px;
+  color: #ff2200;
+  max-width: 130px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  text-decoration: underline dashed;
+}
+
+.cart > ul {
+  list-style: none;
+  padding: 0;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.total p {
+  color: #00adb5;
+  font-weight: 600;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  min-height: 26px;
+}
+
+.cancel,
+.order {
+  border-radius: 5px;
+  padding: auto 5px;
+}
+
+.cancel {
+  background-color: #ff2200;
+}
+
+.order {
+  background-color: #00adb5;
+}
+
+.cancel:hover,
+.order:hover {
+  background-color: #222831;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 300px;
+  gap: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.control > input {
+  padding: 0 5px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+  background-color: #222831;
+}
+
+.invalid > input {
+  background-color: #e65632;
+}

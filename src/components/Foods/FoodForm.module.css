@@ -1,0 +1,35 @@
+.food-form {
+  max-width: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+.food-form > input[type="number"] {
+  max-width: 60px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #222831;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+.food-form > button {
+  border-radius: 10px;
+  padding: 4px;
+  background-color: #222831;
+  cursor: pointer;
+}
+
+.food-form > button:hover {
+  border-radius: 10px;
+  padding: 4px;
+  background-color: #00ADB5;
+  cursor: pointer;
+}
+
+.invalid {
+  color: #ff2200;
+}
